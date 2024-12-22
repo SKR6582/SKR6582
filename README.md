@@ -6,9 +6,9 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
 ---
 
 ## 🛠️ Technologies & Tools
-- **Programming Languages:** Python 🐍 | JavaScript ✨  
+- **Programming Languages:** Python 🐍 | C++ ✨  
 - **Frameworks & Libraries:** Py-cord, Discord API, yt-dlp  
-- **Databases:** MySQL, MariaDB  
+- **Databases:** MariaDB  
 - **Tools:** Vim, Raspberry Pi 5, Linux 🐧  
 
 ---
@@ -17,7 +17,7 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
 ### **1. Discord Bots**  
 - **[Iro](https://discord.com/oauth2/authorize?client_id=1194590922667737188)**  
   Korean language Discord chatbot designed for dynamic and engaging conversations.  
-  > 🔗 [Support Server](https://discord.gg/yUjqQ56ZSx)
+  > 🔗 [Support Server](https://discord.gg/ZgpatnhCUF)
 
 - **DT**  
   Advanced music bot powered by `yt-dlp`, supports streaming directly from SoundCloud and YouTube.  
