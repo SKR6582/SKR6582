@@ -9,7 +9,7 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
 - **Programming Languages:** Python 🐍 | C++ ✨  
 - **Frameworks & Libraries:** Py-cord, Discord API, yt-dlp  
 - **Databases:** MariaDB  
-- **Tools:** Vim, Raspberry Pi 5, Linux 🐧  
+- **Tools:** Vim, Raspberry Pi 5, PuTTY, Linux 🐧  
 
 ---
 
@@ -19,9 +19,11 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
   Korean language Discord chatbot designed for dynamic and engaging conversations.  
   > 🔗 [Support Server](https://discord.gg/ZgpatnhCUF)
 
-- **DT**  
+- **Irody**  
   Advanced music bot powered by `yt-dlp`, supports streaming directly from SoundCloud and YouTube.  
 
+- **DT**
+  A TTS bot powered by `gTTS`.
 ---
 
 ## 🔗 My Links
