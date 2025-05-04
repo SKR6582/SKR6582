@@ -9,7 +9,7 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
 - **Programming Languages:** Python 🐍 | C++ ✨  
 - **Frameworks & Libraries:** Py-cord, Discord API, yt-dlp  
 - **Databases:** MariaDB  
-- **Tools:** Vim, Raspberry Pi 5, PuTTY, Linux 🐧  
+- **Tools:** Vim, Raspberry Pi 5, UTM  ,  PuTTY, Linux 🐧  
 
 ---
 
