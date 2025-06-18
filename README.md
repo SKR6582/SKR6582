@@ -25,7 +25,7 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
 - **DT**
   A TTS bot powered by `gTTS`.
 
--- **Silent**
+- **Silent**
   Silent is the successor to the Discord AI chatbot Iro.
   
 ---
