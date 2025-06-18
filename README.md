@@ -21,9 +21,13 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
 
 - **Irody**  
   Advanced music bot powered by `yt-dlp`, supports streaming directly from SoundCloud and YouTube.  
-
+  
 - **DT**
   A TTS bot powered by `gTTS`.
+
+-- **Silent**
+  Silent is the successor to the Discord AI chatbot Iro.
+  
 ---
 
 ## 🔗 My Links
