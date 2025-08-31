@@ -9,7 +9,7 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
 - **Programming Languages:** Python 🐍 | C++ ✨  
 - **Frameworks & Libraries:** Py-cord, Discord API, yt-dlp  
 - **Databases:** MariaDB  
-- **Tools:** Vim, Raspberry Pi 5, UTM  ,  PuTTY, Linux 🐧  
+- **Tools:** Jetbrains IDE, Vim, Raspberry Pi 5, UTM  ,  PuTTY, Linux 🐧  
 
 ---
 
@@ -27,7 +27,9 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
 
 - **Silent**
   Silent is the successor to the Discord AI chatbot Iro.
-  
+
+- **IN4**
+  Server TEXT Window-Based Editor.
 ---
 
 ## 🔗 My Links
