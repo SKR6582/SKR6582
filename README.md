@@ -44,7 +44,7 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
 ## 🚀 Activity & Contributions
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SKR6582&theme=radical)  
-![Trophies](https://github-profile-trophy.vercel.app/?username=SKR6582&theme=radical&margin-w=15&margin-h=15&row=1)  
+
 
 ---
 
