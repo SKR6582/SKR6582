@@ -9,7 +9,7 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
 - **Programming Languages:** Python 🐍 | C++ ✨  
 - **Frameworks & Libraries:** Py-cord, Discord API, yt-dlp  
 - **Databases:** MariaDB  
-- **Tools:** Jetbrains IDE, Vim, Raspberry Pi 5, UTM  ,  PuTTY, Linux 🐧  
+- **Tools:** Jetbrains IDE, Vim, Raspberry Pi 5, UTM, PuTTY, Linux 🐧  
 
 ---
 
@@ -21,26 +21,36 @@ I'm a passionate **student developer** who loves coding, exploring new technolog
 
 - **Irody**  
   Advanced music bot powered by `yt-dlp`, supports streaming directly from SoundCloud and YouTube.  
-  
-- **DT**
+
+- **DT**  
   A TTS bot powered by `gTTS`.
 
-- **Silent**
+- **Silent**  
   Silent is the successor to the Discord AI chatbot Iro.
 
-- **IN4**
+- **IN4**  
   Server TEXT Window-Based Editor.
+
+---
+
+## 📊 GitHub Analytics
+
+![SKR6582's GitHub stats](https://github-readme-stats.vercel.app/api?username=SKR6582&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SKR6582&layout=compact&theme=radical)  
+![Streak Stats](https://streak-stats.demolab.com?user=SKR6582&theme=radical&hide_border=true)  
+
+---
+
+## 🚀 Activity & Contributions
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SKR6582&theme=radical)  
+![Trophies](https://github-profile-trophy.vercel.app/?username=SKR6582&theme=radical&margin-w=15&margin-h=15&row=1)  
+
 ---
 
 ## 🔗 My Links
 - 🌐 [Website](https://stars-website.vercel.app/)  
 - 💻 [GitHub Profile](https://github.com/SKR6582)  
-
----
-
-## 📈 GitHub Stats
-![SKR6582's GitHub stats](https://github-readme-stats.vercel.app/api?username=SKR6582&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SKR6582&layout=compact&theme=radical)
 
 ---
 
