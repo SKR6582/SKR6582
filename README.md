@@ -86,8 +86,8 @@
 ## 📊 GitHub Mastery
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SKR6582&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true" alt="SKR6582's GitHub Stats" height="180M" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKR6582&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="180M" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SKR6582&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true" alt="SKR6582's GitHub Stats" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKR6582&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="180" />
 </p>
 
 <p align="center">
@@ -95,14 +95,17 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SKR6582&theme=radical&no-bg=true&margin-w=15" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=SKR6582&theme=radical&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 </p>
 
 ### 🐍 Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SKR6582/SKR6582/output/github-contribution-grid-snake.svg" alt="Snake" />
+  <!-- Once you set up the 'snk' GitHub Action, uncomment the line below to show the animation -->
+  <!-- <img src="https://raw.githubusercontent.com/SKR6582/SKR6582/output/github-contribution-grid-snake.svg" alt="Snake" /> -->
+  <img src="https://img.shields.io/badge/Snake-Coming%20Soon-green?style=for-the-badge&logo=github" alt="Snake Coming Soon" />
 </p>
-<p align="center"><i>(Requires GitHub Action to update. Check out <a href="https://github.com/Platane/snk">Platane/snk</a>)</i></p>
+<p align="center"><i>(GitHub Action을 통해 잔디 먹는 뱀 애니메이션을 설정할 수 있습니다. <a href="https://github.com/Platane/snk">Platane/snk</a>)</i></p>
+
 
 ---
 
