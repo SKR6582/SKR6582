@@ -1,10 +1,6 @@
 # Hi there! 👋 I'm **@SKR6582**
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=220&section=header&text=SKR6582&fontSize=90&animation=fadeIn&fontAlignY=38" />
-</p>
-
-<p align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3776AB&center=true&vCenter=true&width=435&lines=Student+Developer;Passionate+about+AI+%26+Discord+Bots;Building+Innovative+Web+Apps;Exploring+Flutter+%26+Swift" alt="Typing SVG" />
   </a>
@@ -78,7 +74,7 @@
 - **Seven Challenge**: Precision timing game.
 - **Irody**: Music bot for SoundCloud & YouTube.
 - **yt_tools**: YouTube video downloader.
-- **Chizzik Bot**: Real-time livestream tracker.
+- **CHZZK Bot**: Real-time livestream tracker.
 </details>
 
 ---
@@ -100,11 +96,10 @@
 
 ### 🐍 Contribution Snake
 <p align="center">
-  <!-- Once you set up the 'snk' GitHub Action, uncomment the line below to show the animation -->
-  <!-- <img src="https://raw.githubusercontent.com/SKR6582/SKR6582/output/github-contribution-grid-snake.svg" alt="Snake" /> -->
-  <img src="https://img.shields.io/badge/Snake-Coming%20Soon-green?style=for-the-badge&logo=github" alt="Snake Coming Soon" />
+  <img src="https://raw.githubusercontent.com/SKR6582/SKR6582/output/github-contribution-grid-snake.svg" alt="Snake" />
 </p>
-<p align="center"><i>(GitHub Action을 통해 잔디 먹는 뱀 애니메이션을 설정할 수 있습니다. <a href="https://github.com/Platane/snk">Platane/snk</a>)</i></p>
+<p align="center"><i>(GitHub Action을 통해 잔디 먹는 뱀 애니메이션이 자동 업데이트됩니다. <a href="https://github.com/Platane/snk">Platane/snk</a>)</i></p>
+
 
 
 ---
