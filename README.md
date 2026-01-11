@@ -16,7 +16,7 @@
 - 🔭 I’m currently working on **CCTC (Emotional Calendar)** and **Hana AI**.
 - 🌱 I’m currently learning **Swift** and **Advanced Flutter techniques**.
 - 💬 Ask me about **Discord Bot development** or **Automation**.
-- 📫 Reach me at: [stars-website.vercel.app](https://stars-website.vercel.app/)
+- 📫 Reach me at: [https://skr6582-portfolio.vercel.app/](https://skr6582-portfolio.vercel.app/)
 
 ## 🛠️ Tech Stack & Tools
 
