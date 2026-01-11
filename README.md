@@ -101,7 +101,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/SKR6582/SKR6582/output/github-contribution-grid-snake.svg" alt="Snake" />
 </p>
-<p align="center"><i>(GitHub Action을 Push하시면 뱀 애니메이션이 생성됩니다. 생성 전까지는 빈 이미지로 보일 수 있습니다. <a href="https://github.com/Platane/snk">Platane/snk</a>)</i></p>
+
 
 
 
