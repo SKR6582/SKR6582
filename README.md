@@ -108,7 +108,7 @@
 ---
 
 <p align="center">
-  <a href="https://stars-website.vercel.app/">
+  <a href="[https://stars-website.vercel.app/](https://skr6582-portfolio.vercel.app/)">
     <img src="https://img.shields.io/badge/Website-Visit%20Me-blue?style=for-the-badge&logo=google-chrome&logoColor=white" />
   </a>
   <a href="https://github.com/SKR6582">
