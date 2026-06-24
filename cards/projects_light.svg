@@ -1,0 +1,125 @@
+<svg fill="none" viewBox="0 0 800 640" width="800" height="640" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .card {
+          background-color: #f6f8fa;
+          border: 1px solid #d0d7de;
+          border-top: 1px solid #e1e4e8;
+          border-left: 1px solid #e1e4e8;
+          border-bottom: 3px solid #c9d1d9;
+          border-right: 3px solid #c9d1d9;
+          border-radius: 12px;
+          padding: 20px 24px;
+          font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+          color: #24292f;
+        }
+        .titlebar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 12px;
+        }
+        .dots span {
+          display: inline-block;
+          width: 12px; height: 12px;
+          border-radius: 50%;
+          margin-right: 6px;
+        }
+        .dot-red { background: #ff5f56; }
+        .dot-yellow { background: #ffbd2e; }
+        .dot-green { background: #27c93f; }
+        .filename {
+          color: #0969da;
+          font-weight: bold;
+          font-size: 14px;
+          margin-left: 10px;
+          font-family: monospace;
+        }
+        .tag {
+          color: #656d76;
+          font-size: 12px;
+          font-family: monospace;
+        }
+        .divider {
+          border: none;
+          border-top: 1px solid #d0d7de;
+          margin: 0 0 14px 0;
+        }
+        .section-title {
+          color: #0969da;
+          font-size: 14px;
+          font-weight: bold;
+          margin: 0 0 8px 0;
+        }
+        .project-list {
+          list-style: none;
+          padding: 0;
+          margin: 0 0 18px 0;
+        }
+        .project-list li {
+          font-size: 13px;
+          line-height: 2;
+          color: #24292f;
+          padding-left: 12px;
+          position: relative;
+        }
+        .project-list li::before {
+          content: "▸";
+          color: #656d76;
+          position: absolute;
+          left: 0;
+        }
+        .project-name {
+          color: #1a7f37;
+          font-weight: bold;
+        }
+        .tech-tag {
+          color: #656d76;
+          font-size: 11px;
+        }
+      </style>
+      <div class="card">
+        <div class="titlebar">
+          <div style="display:flex;align-items:center;">
+            <span class="dots">
+              <span class="dot-red"></span>
+              <span class="dot-yellow"></span>
+              <span class="dot-green"></span>
+            </span>
+            <span class="filename">projects_showcase.md</span>
+          </div>
+          <span class="tag">Markdown Documentation</span>
+        </div>
+        <hr class="divider" />
+        <p class="section-title">🤖 AI &amp; Chatbots</p>
+        <ul class="project-list">
+          <li><span class="project-name">DiscordBot-Iro</span> — Advanced Korean conversational AI chatbot system. <span class="tech-tag">Python • Py-cord</span></li>
+          <li><span class="project-name">Hana Intelligence</span> — Multi-functional AI chatbot combining specialized modules. <span class="tech-tag">Python • OpenAI API</span></li>
+          <li><span class="project-name">V_friend</span> — Interactive AI virtual companion. <span class="tech-tag">Python • AI</span></li>
+          <li><span class="project-name">Persona_Diary</span> — AI-driven emotional record and diary calendar. <span class="tech-tag">Electron • Python • AI</span></li>
+          <li><span class="project-name">AI_FM</span> — Automated AI radio with trend analysis. <span class="tech-tag">Python • Electron • AI</span></li>
+        </ul>
+        <p class="section-title">🛡️ Discord Security &amp; Utilities</p>
+        <ul class="project-list">
+          <li><span class="project-name">discord_protect</span> — Discord server security guard bot to detect anomalies. <span class="tech-tag">Python • Py-cord</span></li>
+          <li><span class="project-name">Orbit</span> — Server backup, recovery, and safety saver bot. <span class="tech-tag">Python • Py-cord</span></li>
+          <li><span class="project-name">Vanguard</span> — User intervention and reporting system for Discord moderation. <span class="tech-tag">Python • Discord API</span></li>
+        </ul>
+        <p class="section-title">📱 Apps &amp; Web Ecosystem</p>
+        <ul class="project-list">
+          <li><span class="project-name">ska_manager</span> — Seat and study room booking management system. <span class="tech-tag">Next.js • React</span></li>
+          <li><span class="project-name">Classroom TV V2</span> — Next-gen school signage and digital display linking platform. <span class="tech-tag">Next.js • React</span></li>
+          <li><span class="project-name">LingoLens</span> — Real-time OCR-based on-screen translator for macOS. <span class="tech-tag">Swift • OCR</span></li>
+        </ul>
+        <p class="section-title">⚙️ Automation &amp; Utilities</p>
+        <ul class="project-list" style="margin-bottom:0;">
+          <li><span class="project-name">keychain_cli</span> — Automatic security threat scanner for project dependencies/keys. <span class="tech-tag">Python</span></li>
+          <li><span class="project-name">Shorts Skipper</span> — Browser auto-skipping extension for mass-produced shorts. <span class="tech-tag">Machine Learning • XGBoost</span></li>
+          <li><span class="project-name">Yochiyochi</span> — General experimental playground and research repo. <span class="tech-tag">Electron</span></li>
+        </ul>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,60 @@
+<svg fill="none" viewBox="0 0 800 100" width="800" height="100" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .card {
+          background-color: #1a1b26;
+          border: 1px solid #24283b;
+          border-top: 1px solid #383e5a;
+          border-left: 1px solid #383e5a;
+          border-bottom: 3px solid #0d0e15;
+          border-right: 3px solid #0d0e15;
+          border-radius: 12px;
+          padding: 20px;
+          font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+          color: #a9b1d6;
+        }
+        .titlebar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .dots span {
+          display: inline-block;
+          width: 12px; height: 12px;
+          border-radius: 50%;
+          margin-right: 6px;
+        }
+        .dot-red { background: #ff007c; }
+        .dot-yellow { background: #ff9e64; }
+        .dot-green { background: #1abc9c; }
+        .filename {
+          color: #70a5fd;
+          font-weight: bold;
+          font-size: 14px;
+          margin-left: 10px;
+          font-family: monospace;
+        }
+        .tag {
+          color: #565f89;
+          font-size: 12px;
+          font-family: monospace;
+        }
+      </style>
+      <div class="card">
+        <div class="titlebar">
+          <div style="display:flex;align-items:center;">
+            <span class="dots">
+              <span class="dot-red"></span>
+              <span class="dot-yellow"></span>
+              <span class="dot-green"></span>
+            </span>
+            <span class="filename">activity_dashboard</span>
+          </div>
+          <span class="tag">Metrics &amp; Analytics</span>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

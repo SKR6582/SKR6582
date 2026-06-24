@@ -1,0 +1,67 @@
+<svg fill="none" viewBox="0 0 800 120" width="800" height="120" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .card {
+          background-color: #f6f8fa;
+          border: 1px solid #d0d7de;
+          border-top: 1px solid #e1e4e8;
+          border-left: 1px solid #e1e4e8;
+          border-bottom: 3px solid #c9d1d9;
+          border-right: 3px solid #c9d1d9;
+          border-radius: 12px;
+          padding: 20px;
+          font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+          color: #24292f;
+        }
+        .titlebar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 12px;
+        }
+        .dots span {
+          display: inline-block;
+          width: 12px; height: 12px;
+          border-radius: 50%;
+          margin-right: 6px;
+        }
+        .dot-red { background: #ff5f56; }
+        .dot-yellow { background: #ffbd2e; }
+        .dot-green { background: #27c93f; }
+        .filename {
+          color: #0969da;
+          font-weight: bold;
+          font-size: 14px;
+          margin-left: 10px;
+          font-family: monospace;
+        }
+        .tag {
+          color: #656d76;
+          font-size: 12px;
+          font-family: monospace;
+        }
+        .divider {
+          border: none;
+          border-top: 1px solid #d0d7de;
+          margin: 0;
+        }
+      </style>
+      <div class="card">
+        <div class="titlebar">
+          <div style="display:flex;align-items:center;">
+            <span class="dots">
+              <span class="dot-red"></span>
+              <span class="dot-yellow"></span>
+              <span class="dot-green"></span>
+            </span>
+            <span class="filename">tech_stack.env</span>
+          </div>
+          <span class="tag">Environment Variables</span>
+        </div>
+        <hr class="divider" />
+      </div>
+    </div>
+  </foreignObject>
+</svg>
