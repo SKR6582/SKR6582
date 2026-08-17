@@ -1,134 +1,132 @@
-<svg fill="none" viewBox="0 0 800 640" width="800" height="640" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        .card {
-          background-color: #1a1b26;
-          border: 1px solid #24283b;
-          border-top: 1px solid #383e5a;
-          border-left: 1px solid #383e5a;
-          border-bottom: 3px solid #0d0e15;
-          border-right: 3px solid #0d0e15;
-          border-radius: 12px;
-          padding: 20px 24px;
-          font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-          color: #a9b1d6;
-        }
-        .titlebar {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          margin-bottom: 12px;
-        }
-        .dots span {
-          display: inline-block;
-          width: 12px; height: 12px;
-          border-radius: 50%;
-          margin-right: 6px;
-        }
-        .dot-red { background: #ff007c; }
-        .dot-yellow { background: #ff9e64; }
-        .dot-green { background: #1abc9c; }
-        .filename {
-          color: #70a5fd;
-          font-weight: bold;
-          font-size: 14px;
-          margin-left: 10px;
-          font-family: monospace;
-        }
-        .tag {
-          color: #565f89;
-          font-size: 12px;
-          font-family: monospace;
-        }
-        .divider {
-          border: none;
-          border-top: 1px solid #24283b;
-          margin: 0 0 14px 0;
-        }
-        .section-title {
-          color: #73d0ff;
-          font-size: 14px;
-          font-weight: bold;
-          margin: 0 0 8px 0;
-        }
-        .project-list {
-          list-style: none;
-          padding: 0;
-          margin: 0 0 18px 0;
-        }
-        .project-list li {
-          font-size: 13px;
-          line-height: 2;
-          color: #a9b1d6;
-          padding-left: 12px;
-          position: relative;
-        }
-        .project-list li::before {
-          content: "▸";
-          color: #565f89;
-          position: absolute;
-          left: 0;
-        }
-        .project-name {
-          color: #1abc9c;
-          font-weight: bold;
-        }
-        .tech-tag {
-          color: #565f89;
-          font-size: 11px;
-        }
-        .more-label {
-          color: #bb9af7;
-          font-weight: bold;
-          font-size: 13px;
-          cursor: pointer;
-        }
-        .more-item {
-          color: #787c99;
-        }
-      </style>
-      <div class="card">
-        <div class="titlebar">
-          <div style="display:flex;align-items:center;">
-            <span class="dots">
-              <span class="dot-red"></span>
-              <span class="dot-yellow"></span>
-              <span class="dot-green"></span>
-            </span>
-            <span class="filename">projects_showcase.md</span>
-          </div>
-          <span class="tag">Markdown Documentation</span>
-        </div>
-        <hr class="divider" />
-        <p class="section-title">🤖 AI &amp; Chatbots</p>
-        <ul class="project-list">
-          <li><span class="project-name">DiscordBot-Iro</span> — Advanced Korean conversational AI chatbot system. <span class="tech-tag">Python • Py-cord</span></li>
-          <li><span class="project-name">Hana Intelligence</span> — Multi-functional AI chatbot combining specialized modules. <span class="tech-tag">Python • OpenAI API</span></li>
-          <li><span class="project-name">V_friend</span> — Interactive AI virtual companion. <span class="tech-tag">Python • AI</span></li>
-          <li><span class="project-name">Persona_Diary</span> — AI-driven emotional record and diary calendar. <span class="tech-tag">Electron • Python • AI</span></li>
-          <li><span class="project-name">AI_FM</span> — Automated AI radio with trend analysis. <span class="tech-tag">Python • Electron • AI</span></li>
-        </ul>
-        <p class="section-title">🛡️ Discord Security &amp; Utilities</p>
-        <ul class="project-list">
-          <li><span class="project-name">discord_protect</span> — Discord server security guard bot to detect anomalies. <span class="tech-tag">Python • Py-cord</span></li>
-          <li><span class="project-name">Orbit</span> — Server backup, recovery, and safety saver bot. <span class="tech-tag">Python • Py-cord</span></li>
-          <li><span class="project-name">Vanguard</span> — User intervention and reporting system for Discord moderation. <span class="tech-tag">Python • Discord API</span></li>
-        </ul>
-        <p class="section-title">📱 Apps &amp; Web Ecosystem</p>
-        <ul class="project-list">
-          <li><span class="project-name">ska_manager</span> — Seat and study room booking management system. <span class="tech-tag">Next.js • React</span></li>
-          <li><span class="project-name">Classroom TV V2</span> — Next-gen school signage and digital display linking platform. <span class="tech-tag">Next.js • React</span></li>
-          <li><span class="project-name">LingoLens</span> — Real-time OCR-based on-screen translator for macOS. <span class="tech-tag">Swift • OCR</span></li>
-        </ul>
-        <p class="section-title">⚙️ Automation &amp; Utilities</p>
-        <ul class="project-list" style="margin-bottom:0;">
-          <li><span class="project-name">keychain_cli</span> — Automatic security threat scanner for project dependencies/keys. <span class="tech-tag">Python</span></li>
-          <li><span class="project-name">Shorts Skipper</span> — Browser auto-skipping extension for mass-produced shorts. <span class="tech-tag">Machine Learning • XGBoost</span></li>
-          <li><span class="project-name">Yochiyochi</span> — General experimental playground and research repo. <span class="tech-tag">Electron</span></li>
-        </ul>
-      </div>
-    </div>
-  </foreignObject>
+<svg fill="none" viewBox="0 0 800 580" width="800" height="580" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #1a1b26; stroke: #24283b; stroke-width: 1.5; }
+      .divider { stroke: #24283b; stroke-width: 1; }
+      .filename { fill: #70a5fd; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 14px; font-weight: 600; }
+      .tag { fill: #565f89; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; }
+      .sec-title { fill: #73d0ff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
+      .bullet { fill: #565f89; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; }
+      .p-name { fill: #1abc9c; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; }
+      .p-desc { fill: #a9b1d6; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; }
+      .p-tech { fill: #565f89; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11.5px; }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect class="bg" x="1" y="1" width="798" height="578" rx="12" />
+
+  <!-- Titlebar -->
+  <circle cx="32" cy="26" r="6" fill="#ff007c" />
+  <circle cx="50" cy="26" r="6" fill="#ff9e64" />
+  <circle cx="68" cy="26" r="6" fill="#1abc9c" />
+  <text class="filename" x="88" y="31">projects_showcase.md</text>
+  <text class="tag" x="770" y="31" text-anchor="end">Markdown Documentation</text>
+
+  <!-- Divider -->
+  <line class="divider" x1="24" y1="48" x2="776" y2="48" />
+
+  <!-- Section 1: AI & Chatbots -->
+  <text class="sec-title" x="24" y="75">🤖 AI &amp; Chatbots</text>
+  <g transform="translate(24, 0)">
+    <text y="99">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">DiscordBot-Iro</tspan>
+      <tspan class="p-desc"> — Advanced Korean conversational AI chatbot system. </tspan>
+      <tspan class="p-tech">Python • Py-cord</tspan>
+    </text>
+    <text y="123">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">Hana Intelligence</tspan>
+      <tspan class="p-desc"> — Multi-functional AI chatbot combining specialized modules. </tspan>
+      <tspan class="p-tech">Python • OpenAI API</tspan>
+    </text>
+    <text y="147">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">V_friend</tspan>
+      <tspan class="p-desc"> — Interactive AI virtual companion. </tspan>
+      <tspan class="p-tech">Python • AI</tspan>
+    </text>
+    <text y="171">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">Persona_Diary</tspan>
+      <tspan class="p-desc"> — AI-driven emotional record and diary calendar. </tspan>
+      <tspan class="p-tech">Electron • Python • AI</tspan>
+    </text>
+    <text y="195">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">AI_FM</tspan>
+      <tspan class="p-desc"> — Automated AI radio with trend analysis. </tspan>
+      <tspan class="p-tech">Python • Electron • AI</tspan>
+    </text>
+  </g>
+
+  <!-- Section 2: Discord Security & Utilities -->
+  <text class="sec-title" x="24" y="235">🛡️ Discord Security &amp; Utilities</text>
+  <g transform="translate(24, 0)">
+    <text y="259">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">discord_protect</tspan>
+      <tspan class="p-desc"> — Discord server security guard bot to detect anomalies. </tspan>
+      <tspan class="p-tech">Python • Py-cord</tspan>
+    </text>
+    <text y="283">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">Orbit</tspan>
+      <tspan class="p-desc"> — Server backup, recovery, and safety saver bot. </tspan>
+      <tspan class="p-tech">Python • Py-cord</tspan>
+    </text>
+    <text y="307">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">Vanguard</tspan>
+      <tspan class="p-desc"> — User intervention and reporting system for Discord moderation. </tspan>
+      <tspan class="p-tech">Python • Discord API</tspan>
+    </text>
+  </g>
+
+  <!-- Section 3: Apps & Web Ecosystem -->
+  <text class="sec-title" x="24" y="347">📱 Apps &amp; Web Ecosystem</text>
+  <g transform="translate(24, 0)">
+    <text y="371">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">ska_manager</tspan>
+      <tspan class="p-desc"> — Seat and study room booking management system. </tspan>
+      <tspan class="p-tech">Next.js • React</tspan>
+    </text>
+    <text y="395">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">Classroom TV V2</tspan>
+      <tspan class="p-desc"> — Next-gen school signage and digital display linking platform. </tspan>
+      <tspan class="p-tech">Next.js • React</tspan>
+    </text>
+    <text y="419">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">LingoLens</tspan>
+      <tspan class="p-desc"> — Real-time OCR-based on-screen translator for macOS. </tspan>
+      <tspan class="p-tech">Swift • OCR</tspan>
+    </text>
+    <text y="443">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">Yochiyochi</tspan>
+      <tspan class="p-desc"> — General experimental playground and research app. </tspan>
+      <tspan class="p-tech">Electron</tspan>
+    </text>
+  </g>
+
+  <!-- Section 4: Automation & Utilities -->
+  <text class="sec-title" x="24" y="483">⚙️ Automation &amp; Utilities</text>
+  <g transform="translate(24, 0)">
+    <text y="507">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">keychain_cli</tspan>
+      <tspan class="p-desc"> — Automatic security threat scanner for project dependencies/keys. </tspan>
+      <tspan class="p-tech">Python</tspan>
+    </text>
+    <text y="531">
+      <tspan class="bullet">▸ </tspan>
+      <tspan class="p-name">Shorts Skipper</tspan>
+      <tspan class="p-desc"> — Browser auto-skipping extension for mass-produced shorts. </tspan>
+      <tspan class="p-tech">Machine Learning • XGBoost</tspan>
+    </text>
+  </g>
 </svg>

@@ -50,9 +50,10 @@
 | 📱 Apps | [ska_manager](https://github.com/SKR6582/ska_manager) | Study room booking system |
 | 📱 Apps | [Classroom_tv-V2](https://github.com/SKR6582/Classroom_tv-V2) | School digital display platform |
 | 📱 Apps | [LingoLens](https://github.com/SKR6582/LingoLens) | macOS real-time OCR translator |
+| 📱 Apps | [Yochiyochi](https://github.com/SKR6582/Yochiyochi) | Experimental playground app |
 | ⚙️ Utils | [keychain_cli](https://github.com/SKR6582/keychain_cli) | Security threat scanner |
 | ⚙️ Utils | [mass-produced-shorts-skipper](https://github.com/SKR6582/mass-produced-shorts-skipper) | Auto-skipping browser extension |
-| ⚙️ Utils | [Yochiyochi](https://github.com/SKR6582/Yochiyochi) | Experimental playground |
+
 
 </details>
 

@@ -1,60 +1,19 @@
-<svg fill="none" viewBox="0 0 800 100" width="800" height="100" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        .card {
-          background-color: #1a1b26;
-          border: 1px solid #24283b;
-          border-top: 1px solid #383e5a;
-          border-left: 1px solid #383e5a;
-          border-bottom: 3px solid #0d0e15;
-          border-right: 3px solid #0d0e15;
-          border-radius: 12px;
-          padding: 20px;
-          font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-          color: #a9b1d6;
-        }
-        .titlebar {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-        }
-        .dots span {
-          display: inline-block;
-          width: 12px; height: 12px;
-          border-radius: 50%;
-          margin-right: 6px;
-        }
-        .dot-red { background: #ff007c; }
-        .dot-yellow { background: #ff9e64; }
-        .dot-green { background: #1abc9c; }
-        .filename {
-          color: #70a5fd;
-          font-weight: bold;
-          font-size: 14px;
-          margin-left: 10px;
-          font-family: monospace;
-        }
-        .tag {
-          color: #565f89;
-          font-size: 12px;
-          font-family: monospace;
-        }
-      </style>
-      <div class="card">
-        <div class="titlebar">
-          <div style="display:flex;align-items:center;">
-            <span class="dots">
-              <span class="dot-red"></span>
-              <span class="dot-yellow"></span>
-              <span class="dot-green"></span>
-            </span>
-            <span class="filename">activity_dashboard</span>
-          </div>
-          <span class="tag">Metrics &amp; Analytics</span>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+<svg fill="none" viewBox="0 0 800 56" width="800" height="56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #1a1b26; stroke: #24283b; stroke-width: 1.5; }
+      .filename { fill: #70a5fd; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 14px; font-weight: 600; }
+      .tag { fill: #565f89; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect class="bg" x="1" y="1" width="798" height="54" rx="10" />
+
+  <!-- Titlebar -->
+  <circle cx="32" cy="28" r="6" fill="#ff007c" />
+  <circle cx="50" cy="28" r="6" fill="#ff9e64" />
+  <circle cx="68" cy="28" r="6" fill="#1abc9c" />
+  <text class="filename" x="88" y="33">activity_dashboard</text>
+  <text class="tag" x="770" y="33" text-anchor="end">Metrics &amp; Analytics</text>
 </svg>
