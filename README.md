@@ -1,85 +1,88 @@
-<p align="center">
-  <img src="banner.png" alt="SKR6582 Profile Card" width="600" />
+# 👋 Hi there, I'm **SKR6582**!
+
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=SKR6582&label=Profile%20Views&color=0e75e4&style=flat-square" alt="views" />
 </p>
 
-<!-- 1. About Me Card -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="cards/about_me.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="cards/about_me_light.svg" />
-  <img src="cards/about_me.svg" alt="About Me" width="100%" />
-</picture>
+> 🚀 **Student Developer** passionate about building **automation tools**, **Discord bots**, **AI-driven applications**, and **cross-platform mobile/web apps**.
 
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=SKR6582&label=views&color=70a5fd&style=flat-square" alt="views" />
-</p>
+---
 
-<!-- 2. Tech Stack Card -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="cards/tech_stack.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="cards/tech_stack_light.svg" />
-  <img src="cards/tech_stack.svg" alt="Tech Stack" width="100%" />
-</picture>
+### 👨‍💻 About Me
+
+* 🔬 **Current Focus**: Developing **[LingoLens](https://github.com/SKR6582/LingoLens)** (macOS Real-time OCR Translator) & **[ska_manager](https://github.com/SKR6582/ska_manager)** (Study room seat system)
+* 💬 **Interests**: Discord Bot Architecture, API Automation, LLM Agent Integrations & Reverse Engineering
+* 🌱 **Learning & Exploring**: SwiftUI, Advanced Flutter, Electron, Next.js Architecture
+* 🔗 **Portfolio**: [skr6582-portfolio.vercel.app](https://skr6582-portfolio.vercel.app/)
+
+---
+
+### 🛠 Tech Stack
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,swift,cpp,flutter,dart,nextjs,postgres,mysql,git,docker,vscode" alt="My Skills" />
+    <img src="https://skillicons.dev/icons?i=py,js,swift,cpp,flutter,dart,nextjs,postgres,mysql,git,docker,vscode" alt="Skills" />
   </a>
 </p>
 
-<!-- 3. Featured Projects Card -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="cards/projects.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="cards/projects_light.svg" />
-  <img src="cards/projects.svg" alt="Featured Projects" width="100%" />
-</picture>
+| Area | Technologies |
+|:---|:---|
+| **Languages** | Python, JavaScript / TypeScript, Swift, C++, Dart, SQL |
+| **Frameworks & Libraries** | Next.js, React, Flutter, Electron, Py-cord / Discord.py, FastAPI |
+| **Database & Tools** | PostgreSQL, MySQL, Docker, Git, VS Code |
 
-<details>
-<summary><b>📂 Quick Links to Repositories</b></summary>
+---
+
+### 🚀 Featured Projects
+
+#### 🤖 AI & Chatbots
+* **[DiscordBot-Iro](https://github.com/SKR6582/DiscordBot-Iro)** — Advanced Korean conversational AI chatbot system (`Python` • `Py-cord`)
+* **[Hana-Intelligence](https://github.com/SKR6582/Hana-Intelligence)** — Multi-functional AI chatbot combining specialized intelligence modules (`Python` • `OpenAI API`)
+* **[V_friend](https://github.com/SKR6582/V_friend)** — Interactive AI virtual companion (`Python` • `AI`)
+* **[Persona_Diary](https://github.com/SKR6582/Persona_Diary)** — AI-driven emotional record and diary calendar (`Electron` • `Python`)
+* **[AI_FM](https://github.com/SKR6582/AI_FM)** — Automated AI radio broadcast with trend analysis (`Python` • `Electron`)
+
+#### 🛡️ Discord Security & Utilities
+* **[discord_protect](https://github.com/SKR6582/discord_protect)** — Server security guard bot detecting anomalies and threats (`Python` • `Py-cord`)
+* **[Orbit](https://github.com/SKR6582/Orbit)** — Server backup, disaster recovery, and safety manager (`Python` • `Py-cord`)
+* **[Vanguard](https://github.com/SKR6582/Vanguard)** — Automated moderation & user reporting system (`Python` • `Discord API`)
+
+#### 📱 Apps & Web Ecosystem
+* **[ska_manager](https://github.com/SKR6582/ska_manager)** — Seat and study room reservation management system (`Next.js` • `React`)
+* **[Classroom_tv-V2](https://github.com/SKR6582/Classroom_tv-V2)** — Next-gen school signage and digital display linking platform (`Next.js` • `React`)
+* **[LingoLens](https://github.com/SKR6582/LingoLens)** — Real-time OCR-based on-screen translator for macOS (`Swift` • `Vision OCR`)
+* **[Yochiyochi](https://github.com/SKR6582/Yochiyochi)** — Experimental playground and research application (`Electron`)
+
+#### ⚙️ Automation & Tools
+* **[keychain_cli](https://github.com/SKR6582/keychain_cli)** — Automated security scanner for project credentials & sensitive keys (`Python`)
+* **[mass-produced-shorts-skipper](https://github.com/SKR6582/mass-produced-shorts-skipper)** — Browser extension to filter & skip mass-produced shorts (`ML` • `XGBoost`)
+
+---
+
+### 📂 Quick Repository Directory
+
+<details open>
+<summary><b>View All Repositories</b></summary>
 <br>
 
-| Category | Repository | Description |
-|:---------|:-----------|:------------|
-| 🤖 AI | [DiscordBot-Iro](https://github.com/SKR6582/DiscordBot-Iro) | Advanced Korean conversational AI chatbot |
-| 🤖 AI | [Hana-Intelligence](https://github.com/SKR6582/Hana-Intelligence) | Multi-functional AI chatbot |
-| 🤖 AI | [V_friend](https://github.com/SKR6582/V_friend) | Interactive AI virtual companion |
-| 🤖 AI | [Persona_Diary](https://github.com/SKR6582/Persona_Diary) | AI-driven emotional diary calendar |
-| 🤖 AI | [AI_FM](https://github.com/SKR6582/AI_FM) | Automated AI radio |
-| 🛡️ Security | [discord_protect](https://github.com/SKR6582/discord_protect) | Discord server security bot |
-| 🛡️ Security | [Orbit](https://github.com/SKR6582/Orbit) | Server backup & recovery bot |
-| 🛡️ Security | [Vanguard](https://github.com/SKR6582/Vanguard) | Discord moderation system |
-| 📱 Apps | [ska_manager](https://github.com/SKR6582/ska_manager) | Study room booking system |
-| 📱 Apps | [Classroom_tv-V2](https://github.com/SKR6582/Classroom_tv-V2) | School digital display platform |
-| 📱 Apps | [LingoLens](https://github.com/SKR6582/LingoLens) | macOS real-time OCR translator |
-| 📱 Apps | [Yochiyochi](https://github.com/SKR6582/Yochiyochi) | Experimental playground app |
-| ⚙️ Utils | [keychain_cli](https://github.com/SKR6582/keychain_cli) | Security threat scanner |
-| ⚙️ Utils | [mass-produced-shorts-skipper](https://github.com/SKR6582/mass-produced-shorts-skipper) | Auto-skipping browser extension |
-
+| Category | Repository | Description | Primary Tech |
+|:---|:---|:---|:---|
+| 🤖 AI | [DiscordBot-Iro](https://github.com/SKR6582/DiscordBot-Iro) | Korean conversational AI bot | Python |
+| 🤖 AI | [Hana-Intelligence](https://github.com/SKR6582/Hana-Intelligence) | Multi-module AI platform | Python, OpenAI |
+| 🤖 AI | [V_friend](https://github.com/SKR6582/V_friend) | Interactive virtual companion | Python |
+| 🤖 AI | [Persona_Diary](https://github.com/SKR6582/Persona_Diary) | Emotional diary calendar | Electron, AI |
+| 🤖 AI | [AI_FM](https://github.com/SKR6582/AI_FM) | Automated trend radio | Python |
+| 🛡️ Security | [discord_protect](https://github.com/SKR6582/discord_protect) | Threat detection guard bot | Python |
+| 🛡️ Security | [Orbit](https://github.com/SKR6582/Orbit) | Backup & recovery bot | Python |
+| 🛡️ Security | [Vanguard](https://github.com/SKR6582/Vanguard) | Moderation & user report system | Python |
+| 📱 Apps | [ska_manager](https://github.com/SKR6582/ska_manager) | Study room booking system | Next.js, React |
+| 📱 Apps | [Classroom_tv-V2](https://github.com/SKR6582/Classroom_tv-V2) | School digital display signage | Next.js, React |
+| 📱 Apps | [LingoLens](https://github.com/SKR6582/LingoLens) | macOS real-time OCR translator | Swift |
+| 📱 Apps | [Yochiyochi](https://github.com/SKR6582/Yochiyochi) | Experimental playground | Electron |
+| ⚙️ Utils | [keychain_cli](https://github.com/SKR6582/keychain_cli) | Key & secret threat scanner | Python |
+| ⚙️ Utils | [mass-produced-shorts-skipper](https://github.com/SKR6582/mass-produced-shorts-skipper) | Auto-skipping extension | JavaScript, ML |
 
 </details>
-
-<!-- 4. Activity Dashboard Card -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="cards/dashboard.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="cards/dashboard_light.svg" />
-  <img src="cards/dashboard.svg" alt="Activity Dashboard" width="100%" />
-</picture>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=SKR6582&show_icons=true&include_all_commits=true&count_private=true&bg_color=1a1b26&hide_border=true&title_color=70a5fd&icon_color=ff007c&text_color=a9b1d6" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=SKR6582&show_icons=true&include_all_commits=true&count_private=true&bg_color=f6f8fa&hide_border=true&title_color=0969da&icon_color=ff5f56&text_color=24292f" />
-    <img src="https://github-readme-stats.vercel.app/api?username=SKR6582&show_icons=true&include_all_commits=true&count_private=true&bg_color=1a1b26&hide_border=true&title_color=70a5fd&icon_color=ff007c&text_color=a9b1d6" alt="GitHub Stats" width="49%" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=SKR6582&layout=compact&bg_color=1a1b26&hide_border=true&title_color=70a5fd&icon_color=ff007c&text_color=a9b1d6" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=SKR6582&layout=compact&bg_color=f6f8fa&hide_border=true&title_color=0969da&icon_color=ff5f56&text_color=24292f" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKR6582&layout=compact&bg_color=1a1b26&hide_border=true&title_color=70a5fd&icon_color=ff007c&text_color=a9b1d6" alt="Top Languages" width="49%" />
-  </picture>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/SKR6582/SKR6582/output/github-contribution-grid-snake.svg" alt="Snake" width="100%" />
-</p>
 
 <br>
 
