@@ -34,7 +34,6 @@
 | **[classroom_v4](https://github.com/SKR6582/classroom_v4)** | `Next.js 15` `TypeScript` | 기능 단위 모듈 구조와 Glass UI를 적용한 교실 TV 및 관리자 대시보드 |
 | **[Classroom_tv-V2](https://github.com/SKR6582/Classroom_tv-V2)** | `Next.js` `React` `TypeScript` | 학교 디지털 사이니지 및 교실 디스플레이 연동 웹 플랫폼 |
 | **[ska_manager](https://github.com/SKR6582/ska_manager)** | `Next.js` `React` `TypeScript` | 독서실 및 스터디룸 좌석 현황 관리·예약 웹 시스템 |
-| **[2026ardunio_Mentorship](https://github.com/SKR6582/2026ardunio_Mentorship)** | `C++` `Arduino` | 기초 LED 제어부터 PIR 동작 감지 센서등, MQ 가스 경보기까지 다루는 오픈소스(CC0) 하드웨어 실습 과정 |
 
 ### 3. AI Agents, LLM & Discord Ecosystem
 
