@@ -1,67 +1,53 @@
-<svg fill="none" viewBox="0 0 800 280" width="800" height="280" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 840 240" width="840" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="840" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
     <style>
-      .bg { fill: #1a1b26; stroke: #24283b; stroke-width: 1.5; }
-      .border-shadow { fill: none; stroke: #0d0e15; stroke-width: 2; }
-      .divider { stroke: #24283b; stroke-width: 1; }
-      .filename { fill: #70a5fd; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 14px; font-weight: 600; }
-      .tag { fill: #565f89; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; }
-      .desc { fill: #a9b1d6; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13.5px; }
-      .label { fill: #c0caf5; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; }
-      .text { fill: #a9b1d6; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; }
-      .highlight { fill: #73d0ff; font-weight: 600; }
+      .card { fill: url(#bgGrad); stroke: #30363d; stroke-width: 1.5; }
+      .subcard { fill: #161b22; stroke: #21262d; stroke-width: 1; }
+      .title { fill: #f0f6fc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 700; letter-spacing: -0.5px; }
+      .handle { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 14px; font-weight: 500; }
+      .bio { fill: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; }
+      .kicker { fill: #58a6ff; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; font-weight: 600; letter-spacing: 0.8px; }
+      .item-title { fill: #f0f6fc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 600; }
+      .item-sub { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; }
+      .badge { fill: #21262d; stroke: #30363d; stroke-width: 1; }
+      .badge-text { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11.5px; }
     </style>
   </defs>
 
-  <!-- Card Background -->
-  <rect class="bg" x="1" y="1" width="798" height="278" rx="12" />
+  <rect class="card" x="1" y="1" width="838" height="238" rx="14" />
 
-  <!-- Titlebar -->
-  <circle cx="32" cy="26" r="6" fill="#ff007c" />
-  <circle cx="50" cy="26" r="6" fill="#ff9e64" />
-  <circle cx="68" cy="26" r="6" fill="#1abc9c" />
-  <text class="filename" x="88" y="31">about_me.json</text>
-  <text class="tag" x="770" y="31" text-anchor="end">JSON Configuration</text>
+  <!-- Top Header -->
+  <text class="title" x="32" y="46">Oh Seungjun</text>
+  <text class="handle" x="184" y="45">@SKR6582</text>
 
-  <!-- Divider -->
-  <line class="divider" x1="24" y1="48" x2="776" y2="48" />
+  <rect class="badge" x="646" y="24" width="162" height="28" rx="6" />
+  <text class="badge-text" x="727" y="42" text-anchor="middle">macOS / Web / AI</text>
 
-  <!-- Description -->
-  <text class="desc" x="24" y="74">I am a student developer passionate about building automation tools, Discord bots, AI-driven applications,</text>
-  <text class="desc" x="24" y="94">and cross-platform mobile apps.</text>
+  <text class="bio" x="32" y="76">Building native macOS utilities, smart classroom platforms, and LLM-powered automation systems.</text>
 
-  <!-- Info List -->
-  <g transform="translate(24, 130)">
-    <!-- Item 1 -->
-    <text y="0">
-      <tspan class="text">🔬 </tspan>
-      <tspan class="label">Current Work: </tspan>
-      <tspan class="text">Developing </tspan>
-      <tspan class="text highlight">LingoLens</tspan>
-      <tspan class="text"> (macOS Real-time OCR Translator) and </tspan>
-      <tspan class="text highlight">ska_manager</tspan>
-      <tspan class="text"> (Study room seat system).</tspan>
-    </text>
+  <!-- Bento Grid Row -->
+  <!-- Box 1: Pinned Focus -->
+  <rect class="subcard" x="32" y="100" width="250" height="112" rx="10" />
+  <text class="kicker" x="48" y="124">PINNED FOCUS</text>
+  <text class="item-title" x="48" y="148">ReadIt &amp; remsleep</text>
+  <text class="item-sub" x="48" y="168">On-device Vision OCR translator</text>
+  <text class="item-sub" x="48" y="186">&amp; native macOS system utilities</text>
 
-    <!-- Item 2 -->
-    <text y="32">
-      <tspan class="text">💬 </tspan>
-      <tspan class="label">Interests: </tspan>
-      <tspan class="text">Discord Bot development, API automation, and LLM integrations.</tspan>
-    </text>
+  <!-- Box 2: Smart Classroom -->
+  <rect class="subcard" x="295" y="100" width="250" height="112" rx="10" />
+  <text class="kicker" x="311" y="124">EDUCATION &amp; WEB</text>
+  <text class="item-title" x="311" y="148">Yochiyochi &amp; Classroom TV</text>
+  <text class="item-sub" x="311" y="168">Electron interactive classroom app</text>
+  <text class="item-sub" x="311" y="186">&amp; 16:9 NEIS school TV dashboards</text>
 
-    <!-- Item 3 -->
-    <text y="64">
-      <tspan class="text">🌱 </tspan>
-      <tspan class="label">Learning: </tspan>
-      <tspan class="text">SwiftUI, Advanced Flutter techniques, and System Utilities.</tspan>
-    </text>
-
-    <!-- Item 4 -->
-    <text y="96">
-      <tspan class="text">🔗 </tspan>
-      <tspan class="label">Portfolio: </tspan>
-      <tspan class="text highlight">skr6582-portfolio.vercel.app</tspan>
-    </text>
-  </g>
+  <!-- Box 3: AI & Bots -->
+  <rect class="subcard" x="558" y="100" width="250" height="112" rx="10" />
+  <text class="kicker" x="574" y="124">AI &amp; AUTOMATION</text>
+  <text class="item-title" x="574" y="148">Milky, Iro &amp; Security Bots</text>
+  <text class="item-sub" x="574" y="168">LLM streaming bots, MCP servers,</text>
+  <text class="item-sub" x="574" y="186">&amp; Discord server protection suite</text>
 </svg>

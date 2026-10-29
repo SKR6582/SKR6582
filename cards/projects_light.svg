@@ -1,132 +1,70 @@
-<svg fill="none" viewBox="0 0 800 580" width="800" height="580" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 840 420" width="840" height="420" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .bg { fill: #f6f8fa; stroke: #d0d7de; stroke-width: 1.5; }
-      .divider { stroke: #d0d7de; stroke-width: 1; }
-      .filename { fill: #0969da; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 14px; font-weight: 600; }
+      .bg { fill: #ffffff; stroke: #d0d7de; stroke-width: 1.5; }
+      .divider { stroke: #d8dee4; stroke-width: 1; }
+      .filename { fill: #0969da; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 13px; font-weight: 600; }
       .tag { fill: #656d76; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; }
-      .sec-title { fill: #0969da; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
-      .bullet { fill: #656d76; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; }
-      .p-name { fill: #1f883d; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; }
-      .p-desc { fill: #24292f; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; }
-      .p-tech { fill: #656d76; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11.5px; }
+      .sec-title { fill: #0969da; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; }
+      .p-name { fill: #1f2328; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .p-desc { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12.5px; }
+      .p-tech { fill: #0550ae; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11.5px; }
     </style>
   </defs>
 
-  <!-- Card Background -->
-  <rect class="bg" x="1" y="1" width="798" height="578" rx="12" />
+  <rect class="bg" x="1" y="1" width="838" height="418" rx="12" />
+  <text class="filename" x="28" y="30">featured_repositories</text>
+  <text class="tag" x="812" y="30" text-anchor="end">2026 Snapshot</text>
+  <line class="divider" x1="24" y1="46" x2="816" y2="46" />
 
-  <!-- Titlebar -->
-  <circle cx="32" cy="26" r="6" fill="#ff5f56" />
-  <circle cx="50" cy="26" r="6" fill="#ffbd2e" />
-  <circle cx="68" cy="26" r="6" fill="#27c93f" />
-  <text class="filename" x="88" y="31">projects_showcase.md</text>
-  <text class="tag" x="770" y="31" text-anchor="end">Markdown Documentation</text>
+  <text class="sec-title" x="28" y="74">MACOS &amp; DESKTOP APPS</text>
+  <text x="28" y="98">
+    <tspan class="p-name">ReadIt</tspan>
+    <tspan class="p-desc"> - On-device macOS screen OCR &amp; translation overlay with Notch HUD </tspan>
+    <tspan class="p-tech">[Swift, Vision, Translation]</tspan>
+  </text>
+  <text x="28" y="122">
+    <tspan class="p-name">remsleep</tspan>
+    <tspan class="p-desc"> - Clamshell sleep blocker &amp; display dimmer with Touch ID auth </tspan>
+    <tspan class="p-tech">[Swift, SwiftUI, IOKit]</tspan>
+  </text>
+  <text x="28" y="146">
+    <tspan class="p-name">Yochiyochi</tspan>
+    <tspan class="p-desc"> - Smart classroom Japanese learning &amp; stroke whiteboard desktop app </tspan>
+    <tspan class="p-tech">[Electron, React, TS]</tspan>
+  </text>
 
-  <!-- Divider -->
-  <line class="divider" x1="24" y1="48" x2="776" y2="48" />
+  <text class="sec-title" x="28" y="186">SMART CLASSROOM &amp; WEB</text>
+  <text x="28" y="210">
+    <tspan class="p-name">Classroom_TV_Lite</tspan>
+    <tspan class="p-desc"> - 16:9 school TV dashboard for Termux, Raspberry Pi, and PC </tspan>
+    <tspan class="p-tech">[Python, JS, NEIS API]</tspan>
+  </text>
+  <text x="28" y="234">
+    <tspan class="p-name">classroom_v4</tspan>
+    <tspan class="p-desc"> - Modular Glass UI classroom signage &amp; admin platform </tspan>
+    <tspan class="p-tech">[Next.js 15, TypeScript]</tspan>
+  </text>
+  <text x="28" y="258">
+    <tspan class="p-name">ska_manager</tspan>
+    <tspan class="p-desc"> - Study room seat reservation &amp; management web platform </tspan>
+    <tspan class="p-tech">[Next.js, React, TS]</tspan>
+  </text>
 
-  <!-- Section 1: AI & Chatbots -->
-  <text class="sec-title" x="24" y="75">🤖 AI &amp; Chatbots</text>
-  <g transform="translate(24, 0)">
-    <text y="99">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">DiscordBot-Iro</tspan>
-      <tspan class="p-desc"> — Advanced Korean conversational AI chatbot system. </tspan>
-      <tspan class="p-tech">Python • Py-cord</tspan>
-    </text>
-    <text y="123">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">Hana Intelligence</tspan>
-      <tspan class="p-desc"> — Multi-functional AI chatbot combining specialized modules. </tspan>
-      <tspan class="p-tech">Python • OpenAI API</tspan>
-    </text>
-    <text y="147">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">V_friend</tspan>
-      <tspan class="p-desc"> — Interactive AI virtual companion. </tspan>
-      <tspan class="p-tech">Python • AI</tspan>
-    </text>
-    <text y="171">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">Persona_Diary</tspan>
-      <tspan class="p-desc"> — AI-driven emotional record and diary calendar. </tspan>
-      <tspan class="p-tech">Electron • Python • AI</tspan>
-    </text>
-    <text y="195">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">AI_FM</tspan>
-      <tspan class="p-desc"> — Automated AI radio with trend analysis. </tspan>
-      <tspan class="p-tech">Python • Electron • AI</tspan>
-    </text>
-  </g>
-
-  <!-- Section 2: Discord Security & Utilities -->
-  <text class="sec-title" x="24" y="235">🛡️ Discord Security &amp; Utilities</text>
-  <g transform="translate(24, 0)">
-    <text y="259">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">discord_protect</tspan>
-      <tspan class="p-desc"> — Discord server security guard bot to detect anomalies. </tspan>
-      <tspan class="p-tech">Python • Py-cord</tspan>
-    </text>
-    <text y="283">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">Orbit</tspan>
-      <tspan class="p-desc"> — Server backup, recovery, and safety saver bot. </tspan>
-      <tspan class="p-tech">Python • Py-cord</tspan>
-    </text>
-    <text y="307">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">Vanguard</tspan>
-      <tspan class="p-desc"> — User intervention and reporting system for Discord moderation. </tspan>
-      <tspan class="p-tech">Python • Discord API</tspan>
-    </text>
-  </g>
-
-  <!-- Section 3: Apps & Web Ecosystem -->
-  <text class="sec-title" x="24" y="347">📱 Apps &amp; Web Ecosystem</text>
-  <g transform="translate(24, 0)">
-    <text y="371">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">ska_manager</tspan>
-      <tspan class="p-desc"> — Seat and study room booking management system. </tspan>
-      <tspan class="p-tech">Next.js • React</tspan>
-    </text>
-    <text y="395">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">Classroom TV V2</tspan>
-      <tspan class="p-desc"> — Next-gen school signage and digital display linking platform. </tspan>
-      <tspan class="p-tech">Next.js • React</tspan>
-    </text>
-    <text y="419">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">LingoLens</tspan>
-      <tspan class="p-desc"> — Real-time OCR-based on-screen translator for macOS. </tspan>
-      <tspan class="p-tech">Swift • OCR</tspan>
-    </text>
-    <text y="443">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">Yochiyochi</tspan>
-      <tspan class="p-desc"> — General experimental playground and research app. </tspan>
-      <tspan class="p-tech">Electron</tspan>
-    </text>
-  </g>
-
-  <!-- Section 4: Automation & Utilities -->
-  <text class="sec-title" x="24" y="483">⚙️ Automation &amp; Utilities</text>
-  <g transform="translate(24, 0)">
-    <text y="507">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">keychain_cli</tspan>
-      <tspan class="p-desc"> — Automatic security threat scanner for project dependencies/keys. </tspan>
-      <tspan class="p-tech">Python</tspan>
-    </text>
-    <text y="531">
-      <tspan class="bullet">▸ </tspan>
-      <tspan class="p-name">Shorts Skipper</tspan>
-      <tspan class="p-desc"> — Browser auto-skipping extension for mass-produced shorts. </tspan>
-      <tspan class="p-tech">Machine Learning • XGBoost</tspan>
-    </text>
-  </g>
+  <text class="sec-title" x="28" y="298">AI AGENTS, LLM &amp; DISCORD</text>
+  <text x="28" y="322">
+    <tspan class="p-name">Milky &amp; DiscordBot-Iro</tspan>
+    <tspan class="p-desc"> - Streaming LLM character &amp; conversational bots </tspan>
+    <tspan class="p-tech">[TypeScript, Python, PostgreSQL]</tspan>
+  </text>
+  <text x="28" y="346">
+    <tspan class="p-name">discord_protect / Orbit / Vanguard</tspan>
+    <tspan class="p-desc"> - Server anomaly defense, backup &amp; moderation </tspan>
+    <tspan class="p-tech">[Python, Py-cord]</tspan>
+  </text>
+  <text x="28" y="370">
+    <tspan class="p-name">Virtual_Keyboard &amp; keychain_cli</tspan>
+    <tspan class="p-desc"> - Camera ML virtual keyboard &amp; secret scanner </tspan>
+    <tspan class="p-tech">[Python, CV, ML]</tspan>
+  </text>
 </svg>
